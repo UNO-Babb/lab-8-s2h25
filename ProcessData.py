@@ -10,9 +10,10 @@ def main():
   #Open the files we will be using
   inFile = open("names.dat", 'r')
   outFile = open("StudentList.csv", 'w')
-
+  
   #Process each line of the input file and output to the CSV file
-
+  line = inFile.readline()
+  print(line)
 
 
   #Close files in the end to save and ensure they are not damaged.
